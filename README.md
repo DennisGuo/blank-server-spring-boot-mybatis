@@ -1,7 +1,7 @@
 
 # blank-server-spring-boot-mybatis
 
-此项目为了方便创建API服务，使用了`spring-boot` , `mybatis` ,`swigger`等相关库。
+此项目为了方便创建API服务，使用了`spring-boot` , `mybatis` ,`swagger`等相关库。
 
 ## 项目结构
 
@@ -49,7 +49,7 @@ java -jar xxx.jar
 
 运行此项目之后，在浏览器打开地址： [http://localhost:9090](http://localhost:9090) 访问项目。
 
-使用`swigger-ui`查看`API`文档，如下图:
+使用`swagger-ui`查看`API`文档，如下图:
 
 <img  src="http://p1.bqimg.com/567571/6a8c760799e9cc1f.png" />
 
@@ -77,5 +77,29 @@ logging.level.cn.geobeans = DEBUG
 ```
 
 
+## 参考内容
 
+**SpringBoot相关**
+
+- [SpringBoot全自动配置](http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-spring-mvc-auto-configuration)
+- [SpringBoot 初始化数据库](https://www.javacodegeeks.com/2016/05/spring-boot-database-initialization.html)
+
+**Mybatis相关**
+
+- [Mybatis动态SQL，xml版](http://www.mybatis.org/mybatis-3/dynamic-sql.html#Pluggable_Scripting_Languages_For_Dynamic_SQL)
+- [Mybatis动态SQL,java版](http://www.mybatis.org/mybatis-3/java-api.html)
+- [Mybatis分页插件](https://my.oschina.net/miemiedev/blog/135516)
+- [MyBatis-Spring-Boot-Starter](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
+
+**Swagger相关**
+
+- [注解配置API接口文档等](https://github.com/swagger-api/swagger-core/wiki/Annotations)
+
+**其他**
+
+- [H2数据的语法](http://www.h2database.com/html/grammar.html)
+
+## TODO
+
+- 增加`mybatis-generator`自动根据数据库表结构生成mapper
 
