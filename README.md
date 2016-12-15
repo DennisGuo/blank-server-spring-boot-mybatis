@@ -3,6 +3,9 @@
 
 此项目为了方便创建API服务，使用了`spring-boot` , `mybatis` ,`swigger`等相关库。
 
+## 项目结构
+
+<img src="http://i1.piimg.com/567571/517fa03a5009fb87.png" width="250"/>
 
 ## 项目打包
 
@@ -41,6 +44,15 @@ java -jar xxx.jar
     1. `application.properties`
     1. `config/application.properties`
     1. `xxx.jar/BOOT-INF/classes/application.properties`
+
+### 访问项目
+
+运行此项目之后，在浏览器打开地址： [http://localhost:9090](http://localhost:9090) 访问项目。
+
+使用`swigger-ui`查看`API`文档，如下图:
+
+<img  src="http://p1.bqimg.com/567571/6a8c760799e9cc1f.png" width="250"/>
+
 
 ### 配置说明
 
