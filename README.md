@@ -5,7 +5,7 @@
 
 ## 项目结构
 
-<img src="http://i1.piimg.com/567571/517fa03a5009fb87.png" width="250"/>
+<img src="http://i1.piimg.com/567571/517fa03a5009fb87.png" />
 
 ## 项目打包
 
@@ -51,7 +51,7 @@ java -jar xxx.jar
 
 使用`swigger-ui`查看`API`文档，如下图:
 
-<img  src="http://p1.bqimg.com/567571/6a8c760799e9cc1f.png" width="250"/>
+<img  src="http://p1.bqimg.com/567571/6a8c760799e9cc1f.png" />
 
 
 ### 配置说明
