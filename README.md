@@ -5,7 +5,7 @@
 
 ## 项目结构
 
-<img src="http://i1.piimg.com/567571/517fa03a5009fb87.png" />
+<img src="http://p1.bqimg.com/567571/4ed6ff31bcb2d251.png" />
 
 ## 项目打包
 
